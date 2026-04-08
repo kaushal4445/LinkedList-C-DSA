@@ -1,4 +1,5 @@
 Algorithm
+
 To insert a new node before a given node in a doubly linked list, start by identifying the previous node of the given node. This is guaranteed because the node to be inserted before is never the head of the list.
 Create a new node with the specified value to be inserted before the given node. The back pointer of the new node should point to the previous node, and the next pointer of the new node should point to the given node.
 To properly integrate the new node into the list, update the next pointer of the previous node to point to the new node, and set the back pointer of the given node to point to the new node, ensuring the doubly linked list remains intact.
