@@ -191,7 +191,6 @@ Node* convertArr2DLL(vector<int> arr) {
     }
     return head;  // Return the head of the doubly linked list
 }
-
 // Function to print the elements of the doubly linked list
 void print(Node* head) {
     // Traverse through the list and print each node's data
@@ -222,7 +221,6 @@ Node* insertAtTail(Node* head, int k) {
     newNode->back = tail; // Set the 'back' pointer of the new node to the previous node
     return head;  // Return the head of the modified list
 }
-
 int main() {
     // Initialize an array of integers
     vector<int> arr = {12, 5, 8, 7, 4};
