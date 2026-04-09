@@ -16,7 +16,7 @@ struct Node {
 class Solution {
 public:
     // Function to delete tail of DLL
-    Node* DeleteTail(Node* head) {
+    Node* Deletetail(Node* head) {
         // If list is empty
         if (head == NULL) return NULL;
 
